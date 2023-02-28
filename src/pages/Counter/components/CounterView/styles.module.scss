@@ -1,0 +1,44 @@
+.wrapper {
+    max-width: 450px;
+    padding: 15px;
+    margin: 15px 0 0 15px;
+    border: 1px solid black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.display, .description {
+    width: 150px;
+    height: 50px;
+    border: 2px solid black;
+    margin-bottom: 15px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.controlButtons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.controlButton {
+    text-align: center;
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    font-weight: 700;
+    font-size: medium;
+    cursor: pointer;
+}
+
+.reset {
+    width: 70px;
+    height: 40px;
+    font-weight: 500;
+}

@@ -1,0 +1,23 @@
+.wrapper {
+    max-width: 450px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border: 2px solid cornflowerblue;
+    padding: 15px;
+    margin-left: 15px;
+}
+
+.navLink {
+    text-decoration: none;
+    border-radius: 5px;
+    color: aliceblue;
+    padding: 10px;
+    background-color:cornflowerblue;
+    transition: 0.3s;
+
+    &:hover {
+        color: black;
+        background-color: #0073ff;
+    }
+}
